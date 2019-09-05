@@ -1,0 +1,110 @@
+body, html {
+    height: 100%;
+	background-color: rgb(230,230,230);
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	color: rgb(230,230,230);
+}
+
+.panorama-1 {
+	height: 50%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-image: url("../images/fsg_24hr_fsrs.jpg");
+}
+
+.fsg-navbar {
+	background-color: rgb(25,25,25);
+}
+
+.nav.nav-justified.fsg-navbar li a {
+	color: rgb(230,230,230);
+}
+
+.nav.nav-justified.fsg-navbar li a:hover {
+	color: rgb(25,25,25);
+	background-color: rgb(230,230,230);
+}
+
+.nav.nav-justified.fsg-navbar > li.active a {
+	color: rgb(25,25,25);
+	background-color: rgb(230,230,230);
+}
+
+.fsg-info-main {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	font-size: 2em;
+	color: rgb(25,25,25);
+	text-align: center;
+}
+
+.fsg-blue {
+	color: rgb(81,191,255);
+}
+
+.fsg-info-main h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+}
+
+.fsg-info-main h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 1.75em;
+}
+
+.fsg-info-main h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.fsg-info-main p {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 0.75em;
+	line-height: 2em;
+}
+
+.fsg-info-1 p {
+	text-align: justify;
+}
+
+figcaption.throttle-quad {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1em;
+	color: rgb(140,140,140)
+}
+
+.fsg-link a {
+	color: rgb(81,191,255);
+	font-weight: bold;
+}
+
+.fsg-link a:hover {
+	color: rgb(81,191,255);
+	font-weight: bold;
+}
+
+span.fsg-twitter a {
+    color: rgb(81,191,255);
+	line-height: 0em;
+}
+
+span.fsg-facebook a {
+    color: rgb(81,191,255);
+	line-height: 0em;
+}
+
+.fsg-social-heading {
+	line-height: 2em;
+}
+
+.fsg-cr p {
+	font-size: 0.5em;
+	color: rgb(140,140,140);
+}

@@ -1,0 +1,169 @@
+body, html {
+    height: 100%;
+	background-color: rgb(230,230,230);
+  background-color: rgb(0,0,0) !important;
+  color: rgb(255,255,255);
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.navvy {
+  background-color: rgba(0, 0, 0); /* add ,.85 for transparency */
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.screenstick {
+  @supports (position: sticky) {
+    position: sticky;
+    top: 0;
+    z-index: $zindex-sticky;
+  }
+}
+
+/*
+.panorama-1 {
+	height: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-image: url("../images/jb_in_fsrs.jpg");
+}
+
+.panorama-2 {
+	height: 50%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-image: url("../images/fsg_24hr_fsrs.jpg");
+}
+*/
+.fsg-container {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.40;
+	border-top-width: 0.4em;
+	border-bottom-width: 0.4em;
+	border-left-width: 0em;
+	border-right-width: 0em;
+	border-style: solid;
+	border-color: rgb(200,200,200);
+}
+
+.fsg-banner {
+	padding: 1em;
+	font-size: 2em;
+	color: rgb(255, 255, 255);
+	text-align: center;
+  background-color: black;
+}
+
+.fsg-navbar {
+	background-color: rgb(25,25,25);
+}
+
+.nav.nav-justified.fsg-navbar li a {
+	color: rgb(230,230,230);
+}
+
+.nav.nav-justified.fsg-navbar li a:hover {
+	color: rgb(25,25,25);
+	background-color: rgb(230,230,230);
+}
+
+.nav.nav-justified.fsg-navbar > li.active a {
+	color: rgb(25,25,25);
+	background-color: rgb(230,230,230);
+}
+
+.fsg-info-main {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	font-size: 2em;
+	text-align: center;
+}
+
+.fsg-blue {
+	color: rgb(40, 178, 207);
+}
+
+a {
+  color: rgb(40, 178, 207);
+
+}
+
+a:hover {
+
+
+}
+.fsg-info-main h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 3em;
+}
+
+.fsg-info-main h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 1.75em;
+}
+
+.fsg-info-main h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.fsg-info-main p {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 0.75em;
+	line-height: 2em;
+}
+
+.fsg-info-1 p {
+	text-align: justify;
+}
+
+figcaption.simdesc {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1em;
+	color: rgb(140,140,140)
+}
+
+p.fsg-location {
+	line-height: 4em;
+}
+
+.fsg-link a {
+	color: rgb(81,191,255);
+	font-weight: bold;
+}
+
+.fsg-link a:hover {
+	color: rgb(81,191,255);
+	font-weight: bold;
+}
+
+span.fsg-twitter a {
+    color: rgb(81,191,255);
+	line-height: 0em;
+}
+
+span.fsg-facebook a {
+    color: rgb(81,191,255);
+	line-height: 0em;
+}
+
+.fsg-social-heading {
+	line-height: 2em;
+}
+
+.fsg-cr p {
+	font-size: 0.5em;
+	color: rgb(140,140,140);
+}
