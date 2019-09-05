@@ -1,0 +1,24 @@
+To Do
+
+- Fix bootstrap way of messing around with allocated grids
+- Simplify CSS (One CSS for each static HTML is silly)
+- Delete one heck of a lot vestigial pages
+
+Features:
+
+- Who Are We
+-- What are we
+-- Where to find us (social media)
+-- What do we do
+-- Where we are
+-- Who can seek us up
+
+- The sims
+
+Potential
+
+- Gallery
+-- A) Random unorganised photos
+-- B) Categorised photos
+Problems: Storage for the photos (low-size pics?) (Somebody please remind me how Apache allows use of internal files?)
+
